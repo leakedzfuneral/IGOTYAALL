@@ -3579,19 +3579,19 @@ local anims = {
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(-30), math.rad(-80)), Time = 0.15},
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(30), math.rad(-100)), Time = 0.15},
     },
-    Horizontal Spin = {
+    ["Horizontal Spin"] = {
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(0), math.rad(-80)), Time = 0.14},
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(90), math.rad(-100)), Time = 0.14},
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(180), math.rad(-100)), Time = 0.14},
         {CFrame = CFrame.new(0.69, 0.7, 0.6) * CFrame.Angles(math.rad(-90), math.rad(270), math.rad(-80)), Time = 0.14},
     },]]
-    --[[Exhibition2 = {
+    ["Exhibition2"] = {
         Main = {
             {CFrame = {X = 1, Y = 0, Z = 0, Angle = CFrame.Angles(math.rad(-40), math.rad(40), math.rad(-80))},Time = 0.12, RealDelay = 0.12},
             {CFrame = {X = 1, Y = 0, Z = -0.3, Angle = CFrame.Angles(math.rad(-80), math.rad(40), math.rad(-60))},Time = 0.16, RealDelay = 0.16},
         },
-    },]]
-    --[[ .Old Extend = {
+    },
+    [" .Old Extend "] = {
             {CFrame = CFrame.new(3, 0, 1) * CFrame.Angles(math.rad(-60), math.rad(30), math.rad(-40)), Time = 0.1},
             {CFrame = CFrame.new(3.3, -.2, 0.7) * CFrame.Angles(math.rad(-70), math.rad(10), math.rad(-20)), Time = 0.2},
             {CFrame = CFrame.new(3.8, -.2, 1.3) * CFrame.Angles(math.rad(-80), math.rad(0), math.rad(-20)), Time = 0.01},
@@ -3602,89 +3602,89 @@ local anims = {
             {CFrame = CFrame.new(0.69, -0.7, 0.6) * CFrame.Angles(math.rad(295), math.rad(55), math.rad(290)), Time = 0.2},
             {CFrame = CFrame.new(0.69, -0.71, 0.6) * CFrame.Angles(math.rad(295), math.rad(60), math.rad(100)), Time = 0.2}
     },
-    Shrink = {
+    ["Shrink"] = {
         {CFrame = CFrame.new(0.3, 0, 0) * CFrame.Angles(math.rad(-2), math.rad(5), math.rad(25)), Time = 0.2},
         {CFrame = CFrame.new(0.69, -0.71, 0.6), Time = 0.2},
-    },]]
-    Jab = {
+    },
+    ["Jab"] = {
         Main = {
             {CFrame = {X = 0.8, Y = -0.7, Z = 0.6, Angle = CFrame.Angles(math.rad(-40), math.rad(65), math.rad(-90))},Time = 0.15, RealDelay = 0.15},
             {CFrame = {X = 0.6, Y = -0.6, Z = 0.5, Angle = CFrame.Angles(math.rad(-45), math.rad(50), math.rad(-105))},Time = 0.1, RealDelay = 0.1},
         },
     },
-    Swong = {
+    ["Swong"] = {
         Main = {
             {CFrame = {X = 0, Y = 0, Z = -0.6, Angle = CFrame.Angles(math.rad(-60), math.rad(50), math.rad(-70))},Time = 0.1, RealDelay = 0.1},
             {CFrame = {X = 0, Y = -0.3, Z = -0.6, Angle = CFrame.Angles(math.rad(-160), math.rad(60), math.rad(10))},Time = 0.2, RealDelay = 0.2},
         },
     },
-    Rise = {
+    ["Rise"] = {
         Main = {
             {CFrame = {X = 0.9, Y = 0, Z = 0, Angle = CFrame.Angles(math.rad(-80), math.rad(60), math.rad(-40))},Time = 0.14, RealDelay = 0.14},
             {CFrame = {X = 0.5, Y = -0.2, Z = -0.7, Angle = CFrame.Angles(math.rad(-150), math.rad(55), math.rad(20))},Time = 0.14, RealDelay = 0.14},
         },
     },
-    BlockHit = {
+    ["BlockHit"] = {
         Main = {
             {CFrame = {X = 0.7, Y = -0.7, Z = 0.6, Angle = CFrame.Angles(math.rad(-60), math.rad(60), math.rad(-70))},Time = 0.15, RealDelay = 0.15},
             {CFrame = {X = 0.5, Y = -0.7, Z = -0.2, Angle = CFrame.Angles(math.rad(-120), math.rad(60), math.rad(-50))},Time = 0.15, RealDelay = 0.15},
         },
     },
-    Push = {
+    ["Push"] = {
         Main = {
             {CFrame = {X = 0.2, Y = -0.7, Z = 0, Angle = CFrame.Angles(math.rad(-16), math.rad(60), math.rad(-80))},Time = 0.2, RealDelay = 0.2},
             {CFrame = {X = 0.2, Y = -1, Z = 0, Angle = CFrame.Angles(math.rad(23), math.rad(67), math.rad(-111))},Time = 0.35, RealDelay = 0.35},
         },
     },
-    --[[Slide = {
+    ["Slide"] = {
         {CFrame = {X = 0.2, Y = -0.7, Z = 0, Angle = CFrame.Angles(math.rad(-16), math.rad(60), math.rad(-80))},Time = 0.15, RealDelay = 0.15},
         {CFrame = {X = 0.2, Y = -1, Z = 0, Angle = CFrame.Angles(math.rad(23), math.rad(67), math.rad(-111))},Time = 0.3, RealDelay = 0.3},
         {CFrame = {X = 0.2, Y = -1, Z = -10, Angle = CFrame.Angles(math.rad(23), math.rad(67), math.rad(-111))},Time = 0.0, RealDelay = 0.0},
         {CFrame = {X = 0.2, Y = -0.7, Z = 0, Angle = CFrame.Angles(math.rad(-16), math.rad(60), math.rad(-80))},Time = 0.1, RealDelay = 0.1},
         {CFrame = {X = 0.2, Y = -1, Z = 0, Angle = CFrame.Angles(math.rad(23), math.rad(67), math.rad(-111))},Time = 0.3, RealDelay = 0.3},
-    },]]
-    --[[Smooth = {
+    },
+    ["Smooth"] = {
         {CFrame = {X = 1, Y = 0, Z = -0.5, Angle = CFrame.Angles(math.rad(-90), math.rad(60), math.rad(-60))},Time = 0.2, RealDelay = 0.2},
         {CFrame = {X = 1, Y = -0.2, Z = -0.5, Angle = CFrame.Angles(math.rad(-160), math.rad(60), math.rad(-30))},Time = 0.12, RealDelay = 0.12},
-    },]]
-    --[[Exhi2 = {
+    },
+    ["Exhi2"] = {
         {CFrame = {X = 1, Y = 0, Z = 0, Angle = CFrame.Angles(math.rad(-40), math.rad(40), math.rad(-80))},Time = 0.12, RealDelay = 0.12},
         {CFrame = {X = 1, Y = 0, Z = -0.3, Angle = CFrame.Angles(math.rad(-80), math.rad(40), math.rad(-60))},Time = 0.16, RealDelay = 0.16,},
-    },]]
-    --[[Butter = {
+    },
+    ["Butter"] = {
         {CFrame = {X = 3.0, Y = -1.7, Z = -1.1, Angle = CFrame.Angles(math.rad(307), math.rad(57), math.rad(145))}, Time = 0.18, RealDelay = 0.18},
         {CFrame = {X = 3.0, Y = -1.7, Z = -1.3, Angle = CFrame.Angles(math.rad(203), math.rad(57), math.rad(226))}, Time = 0.14, RealDelay = 0.14},
     },]]
-    --[[Slash = {
+    ["Slash"] = {
         {CFrame = {X = 0.7, Y = -0.7, Z = 0.6, Angle = CFrame.Angles(math.rad(-16), math.rad(60), math.rad(-80))}, Time = 0.01, RealDelay = 0.01},
         {CFrame = {X = -1.71, Y = -1.11, Z = -0.94, Angle = CFrame.Angles(math.rad(-105), math.rad(85), math.rad(7))}, Time = 0.19, RealDelay = 0.19}
     },]]
-    Cockless = {
+    ["Cockless"] = {
         Main = {
             {CFrame = {X = 2, Y = -2.5, Z = 0.2, Angle = CFrame.Angles(math.rad(268), math.rad(54), math.rad(327))}, Time = 0.17, RealDelay = 0.17},
             {CFrame = {X = 1.6, Y = -2.5, Z = 0.2, Angle = CFrame.Angles(math.rad(189), math.rad(52), math.rad(347))}, Time = 0.16, RealDelay = 0.16},
         },
     },
-    --[[Stab = {
+    [Stab"] = {
         Main = {
             {CFrame = {X = 0.5, Y = -4, Z = -0.1, Angle = CFrame.Angles(math.rad(273), math.rad(0), math.rad(282))}, Time = 0.3, RealDelay = 0.3},
             {CFrame = {X = 0.5, Y = 2, Z = -0.1, Angle = CFrame.Angles(math.rad(273), math.rad(0), math.rad(282))}, Time = 0.6, RealDelay = 0.5},
         },
-    },]]
-    Sigma = {
+    },
+    ["Sigma"] = {
         Main = {
             {CFrame = {X = 0.3, Y = -0.8, Z = -1.3, Angle = CFrame.Angles(math.rad(160), math.rad(84), math.rad(90))}, Time = 0.18, RealDelay = 0.16},
             {CFrame = {X = 0.3, Y = -0.9, Z = -1.17, Angle = CFrame.Angles(math.rad(160), math.rad(70), math.rad(90))}, Time = 0.18, RealDelay = 0.16},
             {CFrame = {X = 0.4, Y = -0.65, Z = -0.8, Angle = CFrame.Angles(math.rad(160), math.rad(111), math.rad(90))}, Time = 0.18, RealDelay = 0.16},
         },
     },
-    Sigma2 = {
+    ["Sigma2"] = {
         Main = {
             {CFrame = {X = 0.2, Y = 0, Z = -1.3, Angle = CFrame.Angles(math.rad(111), math.rad(111), math.rad(130))}, Time = 0.18, RealDelay = 0.16},
             {CFrame = {X = 0, Y = -0.2, Z = -1.7, Angle = CFrame.Angles(math.rad(30), math.rad(111), math.rad(190))}, Time = 0.18, RealDelay = 0.16},
         },
     },
-    --[[Drop = {
+    ["Drop"] = {
         Main = {
             {CFrame = {X = -0.4, Y = -0.7, Z = -1.3, Angle = CFrame.Angles(math.rad(111), math.rad(111), math.rad(130))}, Time = 0.23, RealDelay = 0.23},
             {CFrame = {X = -0.8, Y = -0.9, Z = -1.7, Angle = CFrame.Angles(math.rad(20), math.rad(130), math.rad(180))}, Time = 0.23, RealDelay = 0.23},
@@ -3693,7 +3693,7 @@ local anims = {
             {CFrame = {X = -0.8, Y = -0.6, Z = -1, Angle = CFrame.Angles(math.rad(20), math.rad(130), math.rad(180))}, Time = 0.19, RealDelay = 0.19},
         },
     },]]
-    Dortware2 = {
+    ["Dortware2"] = {
         First = {
             {CFrame = {X = -0.3, Y = -0.53, Z = -0.6, Angle = CFrame.Angles(math.rad(160), math.rad(127), math.rad(90))}, Time = 0.1, RealDelay = 0.1},
         },
@@ -3706,23 +3706,23 @@ local anims = {
             --{CFrame = {X = -0.01, Y = -0.65, Z = -0.8, Angle = CFrame.Angles(math.rad(160), math.rad(111), math.rad(90))}, Time = 0.6, RealDelay = 0.03}
         },
     },
-    --[[Template = {
+    ["Template"] = {
         {CFrame = {X = 0.7, Y = -0.7, Z = 0.6, Angle = CFrame.Angles(math.rad(-16), math.rad(60), math.rad(-80))}, Time = 0.01, RealDelay = 0.01},
         {CFrame = {X = -1.71, Y = -1.11, Z = -0.94, Angle = CFrame.Angles(math.rad(-105), math.rad(85), math.rad(7))}, Time = 0.19, RealDelay = 0.19}
     },]]
-    LiquidBounce = {
+    ["LiquidBounce"] = {
         Main = {
             {CFrame = {X = 0, Y = 0, Z = -1, Angle = CFrame.Angles(math.rad(-40), math.rad(60), math.rad(-80))}, Time = 0.17, RealDelay = 0.17},
             {CFrame = {X = 0, Y = 0, Z = -1, Angle = CFrame.Angles(math.rad(-60), math.rad(60), math.rad(-80))}, Time = 0.17, RealDelay = 0.23}
         },
     },
-    OddSwing = {
+    ["OddSwing"] = {
         Main = {
             {CFrame = {X = 0, Y = 0, Z = 0, Angle = CFrame.Angles(math.rad(0), math.rad(0), math.rad(0))}, Time = 0.15, RealDelay = 0.15},
             {CFrame = {X = 0.03, Y = 0.07, Z = -0.07, Angle = CFrame.Angles(math.rad(-20), math.rad(-2), math.rad(-8))}, Time = 0.15, RealDelay = 0.2}
         },
     },
-    Drop2 = {
+    ["Drop2"] = {
         Main = {
             {CFrame = {X = 0, Y = 0, Z = -3, Angle = CFrame.Angles(math.rad(-45), math.rad(60), math.rad(-60))}, Time = 0, RealDelay = 0},
             {CFrame = {X = 0, Y = 0, Z = -0.3, Angle = CFrame.Angles(math.rad(-45), math.rad(60), math.rad(-70))}, Time = 0.15, RealDelay = 0.4}
@@ -4052,7 +4052,7 @@ local anims = {
     })
     killauraanimmethod = Killaura.CreateDropdown({
         Name = "Animation", 
-        List = {"Slash", "Cockless", "Template", "Sigma", "Sigma2", "Exhibition2", "Slide", "Dortware2", "Drop2", "OddSwing", "Spooky", "BlockHit", "Rise", " .Old Extend ", "Flat", "Roll", "Shrink", "Swong", "Jab"},
+        List = {"Slash", "Cockless", "Template", "Sigma", "Sigma2", "Exhibition2", "Slide", "Dortware2", "Drop2", "OddSwing", "Spooky", "BlockHit", "Rise", " .Old Extend ", "Flat", "Roll", "Shrink", "Swong", "Jab", "Exhi2", "Horizontal Spin"},
         Function = function(val) end
     })
 	local oldviewmodel
